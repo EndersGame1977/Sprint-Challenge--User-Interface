@@ -80,12 +80,23 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    /* width: 48%; */
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
 .middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content .home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -101,6 +112,13 @@ p {
     justify-content: space-evenly;
 }
 
+.middle-content .box .about{
+    display: box;
+    width: 343px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -191,7 +209,12 @@ nav ul li a {
     background: dodgerblue;
 }
 
-.aboutCategoryContainer {
-    display: flex;
-    
+button {
+    background: white;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+header {
+    margin: 30px 0px;
 }
