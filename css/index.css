@@ -190,3 +190,8 @@ nav ul li a {
 .box10 {
     background: dodgerblue;
 }
+
+.aboutCategoryContainer {
+    display: flex;
+    
+}
